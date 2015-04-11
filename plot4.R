@@ -21,7 +21,6 @@ sub2<-mydata$Sub_metering_2
 sub3<-mydata$Sub_metering_3
 
 ##Sets up space for all four plots. The cex call proportions text on all plots.
-##The bg call sets all plots background colors as transparent.
 par(mfrow=c(2,2), cex=0.75)
 
 ##Creates Global Active Power plot (upper left)
